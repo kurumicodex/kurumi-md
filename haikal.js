@@ -3273,6 +3273,9 @@ haikal.sendText(m.chat, `⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${
 }
 break
 case 'zhysound1':
+satu = fs.readFileSync('./baseikal/sound/sound1.mp3')
+haikal.sendMessage(m.chat, { audio: satu, mimetype: 'audio/mp4', ptt: true }, { quoted: m })
+      
 case 'zhysound2':
 case 'zhysound3':
 case 'zhysound4':
