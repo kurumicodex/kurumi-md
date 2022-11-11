@@ -26,16 +26,16 @@ global.ig = 'https://www.instagram.com/kurumi_cwe' // ubah aja
 global.email = 'kurumicodexxgmail.com'
 global.region = 'indonesia'
 //—————「 Set Nama Own & Bot 」—————//
-global.ownername = '𝚃𝙷𝙴 KURUMI LTDネ' //ubah jadi nama mu, note tanda ' gausah di hapus!
-global.botname = '𝚃𝙷𝙴 KURUMI LTDネ' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
-global.footer = '𝚃𝙷𝙴 KURUMI LTDネ' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.ownername = 'THE KURUMI LTDネ' //ubah jadi nama mu, note tanda ' gausah di hapus!
+global.botname = 'THE KURUMI LTDネ' //ubah jadi nama bot mu, note tanda ' gausah di hapus!
+global.footer = 'THE KURUMI LTDネ' //ubah jadi nama mu, note tanda ' gausah di hapus!
 //=================================================//
 // Other
 global.owner = ['6283167443391'] // ubah aja pake nomor lu
 global.premium = ['6283167443391'] // ubah aja pake nomor lu
-global.packname = '𝚃𝙷𝙴 KURUMIネ' // ubah aja
-global.ownerr = ['𝚃𝙷𝙴 KURUMIネ'] // ubaha aja
-global.author = '𝚃𝙷𝙴 KURUMIネ' //ubah aja
+global.packname = 'THE KURUMIネ' // ubah aja
+global.ownerr = ['THE KURUMIネ'] // ubaha aja
+global.author = 'THE KURUMIネ' //ubah aja
 global.sessionName = 'haikal' //Gausaj Di Ubah
 global.prefa = ['','!','.',',','🐤','🗿'] // Gausah Mendingan 
 global.sp = '⭔' // Gausah Juga
