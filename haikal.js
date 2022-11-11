@@ -3272,170 +3272,167 @@ if (anu.status == false) return m.reply(anu.message)
 haikal.sendText(m.chat, `⭔ *Hasil :* ${anu.message.result}\n⭔ *Catatan :* ${anu.message.catatan}`, m)
 }
 break
-case 'zhysound1':
-satu = fs.readFileSync('./baseikal/sound/sound1.mp3')
-haikal.sendMessage(m.chat, { audio: satu, mimetype: 'audio/mp4', ptt: true }, { quoted: m })
-      
-case 'zhysound2':
-case 'zhysound3':
-case 'zhysound4':
-case 'zhysound5':
-case 'zhysound6':
-case 'zhysound7':
-case 'zhysound8':
-case 'zhysound9':
-case 'zhysound10':
-case 'zhysound11':
-case 'zhysound12':
-case 'zhysound13':
-case 'zhysound14':
-case 'zhysound15':
-case 'zhysound16':
-case 'zhysound17':
-case 'zhysound18':
-case 'zhysound19':
-case 'zhysound20':
-case 'zhysound21':
-case 'zhysound22':
-case 'zhysound23':
-case 'zhysound24':
-case 'zhysound25':
-case 'zhysound26':
-case 'zhysound27':
-case 'zhysound28':
-case 'zhysound29':
-case 'zhysound30':
-case 'zhysound31':
-case 'zhysound32':
-case 'zhysound33':
-case 'zhysound34':
-case 'zhysound35':
-case 'zhysound36':
-case 'zhysound37':
-case 'zhysound38':
-case 'zhysound39':
-case 'zhysound40':
-case 'zhysound41':
-case 'zhysound42':
-case 'zhysound43':
-case 'zhysound44':
-case 'zhysound45':
-case 'zhysound46':
-case 'zhysound47':
-case 'zhysound48':
-case 'zhysound49':
-case 'zhysound50':
-case 'zhysound51':
-case 'zhysound52':
-case 'zhysound53':
-case 'zhysound54':
-case 'zhysound55':
-case 'zhysound56':
-case 'zhysound57':
-case 'zhysound58':
-case 'zhysound59':
-case 'zhysound60':
-case 'zhysound61':
-case 'zhysound62':
-case 'zhysound63':
-case 'zhysound64':
-case 'zhysound65':
-case 'zhysound66':
-case 'zhysound67':
-case 'zhysound68':
-case 'zhysound69':
-case 'zhysound70':
-case 'zhysound71':
-case 'zhysound72':
-case 'zhysound73':
-case 'zhysound74':
-case 'zhysound75':
-case 'zhysound76':
-case 'zhysound77':
-case 'zhysound78':
-case 'zhysound79':
-case 'zhysound80':
-case 'zhysound81':
-case 'zhysound82':
-case 'zhysound83':
-case 'zhysound84':
-case 'zhysound85':
-case 'zhysound86':
-case 'zhysound87':
-case 'zhysound88':
-case 'zhysound89':
-case 'zhysound90':
-case 'zhysound91':
-case 'zhysound92':
-case 'zhysound93':
-case 'zhysound94':
-case 'zhysound95':
-case 'zhysound96':
-case 'zhysound97':
-case 'zhysound98':
-case 'zhysound99':
-case 'zhysound100':
-case 'zhysound101':
-case 'zhysound102':
-case 'zhysound103':
-case 'zhysound104':
-case 'zhysound105':
-case 'zhysound106':
-case 'zhysound107':
-case 'zhysound108':
-case 'zhysound109':
-case 'zhysound110':
-case 'zhysound111':
-case 'zhysound112':
-case 'zhysound113':
-case 'zhysound114':
-case 'zhysound115':
-case 'zhysound116':
-case 'zhysound117':
-case 'zhysound118':
-case 'zhysound119':
-case 'zhysound120':
-case 'zhysound121':
-case 'zhysound122':
-case 'zhysound123':
-case 'zhysound124':
-case 'zhysound125':
-case 'zhysound126':
-case 'zhysound127':
-case 'zhysound128':
-case 'zhysound129':
-case 'zhysound130':
-case 'zhysound131':
-case 'zhysound132':
-case 'zhysound133':
-case 'zhysound134':
-case 'zhysound135':
-case 'zhysound136':
-case 'zhysound137':
-case 'zhysound138':
-case 'zhysound139':
-case 'zhysound140':
-case 'zhysound141':
-case 'zhysound142':
-case 'zhysound143':
-case 'zhysound144':
-case 'zhysound145':
-case 'zhysound146':
-case 'zhysound147':
-case 'zhysound148':
-case 'zhysound149':
-case 'zhysound150':
-case 'zhysound151':
-case 'zhysound152':
-case 'zhysound153':
-case 'zhysound154':
-case 'zhysound155':
-case 'zhysound156':
-case 'zhysound157':
-case 'zhysound158':
-case 'zhysound159':
-case 'zhysound160':
-case 'zhysound161':
+case 'sound1':
+case 'sound2':
+case 'sound3':
+case 'sound4':
+case 'sound5':
+case 'sound6':
+case 'sound7':
+case 'sound8':
+case 'sound9':
+case 'sound10':
+case 'sound11':
+case 'sound12':
+case 'sound13':
+case 'sound14':
+case 'sound15':
+case 'sound16':
+case 'sound17':
+case 'sound18':
+case 'sound19':
+case 'sound20':
+case 'sound21':
+case 'sound22':
+case 'sound23':
+case 'sound24':
+case 'sound25':
+case 'sound26':
+case 'sound27':
+case 'sound28':
+case 'sound29':
+case 'sound30':
+case 'sound31':
+case 'sound32':
+case 'sound33':
+case 'sound34':
+case 'sound35':
+case 'sound36':
+case 'sound37':
+case 'sound38':
+case 'sound39':
+case 'sound40':
+case 'sound41':
+case 'sound42':
+case 'sound43':
+case 'sound44':
+case 'sound45':
+case 'sound46':
+case 'sound47':
+case 'sound48':
+case 'sound49':
+case 'sound50':
+case 'sound51':
+case 'sound52':
+case 'sound53':
+case 'sound54':
+case 'sound55':
+case 'sound56':
+case 'sound57':
+case 'sound58':
+case 'sound59':
+case 'sound60':
+case 'sound61':
+case 'sound62':
+case 'sound63':
+case 'sound64':
+case 'sound65':
+case 'sound66':
+case 'sound67':
+case 'sound68':
+case 'sound69':
+case 'sound70':
+case 'sound71':
+case 'sound72':
+case 'sound73':
+case 'sound74':
+case 'sound75':
+case 'sound76':
+case 'sound77':
+case 'sound78':
+case 'sound79':
+case 'sound80':
+case 'sound81':
+case 'sound82':
+case 'sound83':
+case 'sound84':
+case 'sound85':
+case 'sound86':
+case 'sound87':
+case 'sound88':
+case 'sound89':
+case 'sound90':
+case 'sound91':
+case 'sound92':
+case 'sound93':
+case 'sound94':
+case 'sound95':
+case 'sound96':
+case 'sound97':
+case 'sound98':
+case 'sound99':
+case 'sound100':
+case 'sound101':
+case 'sound102':
+case 'sound103':
+case 'sound104':
+case 'sound105':
+case 'sound106':
+case 'sound107':
+case 'sound108':
+case 'sound109':
+case 'sound110':
+case 'sound111':
+case 'sound112':
+case 'sound113':
+case 'sound114':
+case 'sound115':
+case 'sound116':
+case 'sound117':
+case 'sound118':
+case 'sound119':
+case 'sound120':
+case 'sound121':
+case 'sound122':
+case 'sound123':
+case 'sound124':
+case 'sound125':
+case 'sound126':
+case 'sound127':
+case 'sound128':
+case 'sound129':
+case 'sound130':
+case 'sound131':
+case 'sound132':
+case 'sound133':
+case 'sound134':
+case 'sound135':
+case 'sound136':
+case 'sound137':
+case 'sound138':
+case 'sound139':
+case 'sound140':
+case 'sound141':
+case 'sound142':
+case 'sound143':
+case 'sound144':
+case 'sound145':
+case 'sound146':
+case 'sound147':
+case 'sound148':
+case 'sound149':
+case 'sound150':
+case 'sound151':
+case 'sound152':
+case 'sound153':
+case 'sound154':
+case 'sound155':
+case 'sound156':
+case 'sound157':
+case 'sound158':
+case 'sound159':
+case 'sound160':
+case 'sound161':
  if (isBan) throw sticBanLu(from)
 xeony_buffer = await getBuffer(`https://github.com/DGXeon/Tiktokmusic-API/raw/master/tiktokmusic/${command}.mp3`)
 await haikal.sendMessage(m.chat, { audio: xeony_buffer, mimetype: 'audio/mp4', ptt: true }, { quoted: m })
@@ -4847,167 +4844,167 @@ case 'randomsound': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╔══════[ Sound Menu ]══════⊱
-╠❉ zhysound1
-╠❉ zhysound2
-╠❉ zhysound3
-╠❉ zhysound4
-╠❉ zhysound5
-╠❉ zhysound6
-╠❉ zhysound7
-╠❉ zhysound8
-╠❉ zhysound9
-╠❉ zhysound10
-╠❉ zhysound11
-╠❉ zhysound12
-╠❉ zhysound13
-╠❉ zhysound14
-╠❉ zhysound15
-╠❉ zhysound16
-╠❉ zhysound17
-╠❉ zhysound18
-╠❉ zhysound19
-╠❉ zhysound20
-╠❉ zhysound21
-╠❉ zhysound22
-╠❉ zhysound23
-╠❉ zhysound24
-╠❉ zhysound25
-╠❉ zhysound26
-╠❉ zhysound27
-╠❉ zhysound28
-╠❉ zhysound29
-╠❉ zhysound30
-╠❉ zhysound31
-╠❉ zhysound32
-╠❉ zhysound33
-╠❉ zhysound34
-╠❉ zhysound35
-╠❉ zhysound36
-╠❉ zhysound37
-╠❉ zhysound38
-╠❉ zhysound39
-╠❉ zhysound40
-╠❉ zhysound41
-╠❉ zhysound42
-╠❉ zhysound43
-╠❉ zhysound44
-╠❉ zhysound45
-╠❉ zhysound46
-╠❉ zhysound47
-╠❉ zhysound48
-╠❉ zhysound49
-╠❉ zhysound50
-╠❉ zhysound51
-╠❉ zhysound52
-╠❉ zhysound53
-╠❉ zhysound54
-╠❉ zhysound55
-╠❉ zhysound56
-╠❉ zhysound57
-╠❉ zhysound58
-╠❉ zhysound59
-╠❉ zhysound60
-╠❉ zhysound61
-╠❉ zhysound62
-╠❉ zhysound63
-╠❉ zhysound64
-╠❉ zhysound65
-╠❉ zhysound66
-╠❉ zhysound67
-╠❉ zhysound68
-╠❉ zhysound69
-╠❉ zhysound70
-╠❉ zhysound71
-╠❉ zhysound72
-╠❉ zhysound73
-╠❉ zhysound74
-╠❉ zhysound75
-╠❉ zhysound76
-╠❉ zhysound77
-╠❉ zhysound78
-╠❉ zhysound79
-╠❉ zhysound80
-╠❉ zhysound81
-╠❉ zhysound82
-╠❉ zhysound83
-╠❉ zhysound84
-╠❉ zhysound85
-╠❉ zhysound86
-╠❉ zhysound87
-╠❉ zhysound88
-╠❉ zhysound89
-╠❉ zhysound90
-╠❉ zhysound91
-╠❉ zhysound92
-╠❉ zhysound93
-╠❉ zhysound94
-╠❉ zhysound95
-╠❉ zhysound96
-╠❉ zhysound97
-╠❉ zhysound98
-╠❉ zhysound99
-╠❉ zhysound100
-╠❉ zhysound101
-╠❉ zhysound102
-╠❉ zhysound103
-╠❉ zhysound104
-╠❉ zhysound105
-╠❉ zhysound106
-╠❉ zhysound107
-╠❉ zhysound108
-╠❉ zhysound109
-╠❉ zhysound110
-╠❉ zhysound111
-╠❉ zhysound112
-╠❉ zhysound113
-╠❉ zhysound114
-╠❉ zhysound115
-╠❉ zhysound116
-╠❉ zhysound117
-╠❉ zhysound118
-╠❉ zhysound119
-╠❉ zhysound120
-╠❉ zhysound121
-╠❉ zhysound122
-╠❉ zhysound123
-╠❉ zhysound124
-╠❉ zhysound125
-╠❉ zhysound126
-╠❉ zhysound127
-╠❉ zhysound128
-╠❉ zhysound129
-╠❉ zhysound130
-╠❉ zhysound131
-╠❉ zhysound132
-╠❉ zhysound133
-╠❉ zhysound134
-╠❉ zhysound135
-╠❉ zhysound136
-╠❉ zhysound137
-╠❉ zhysound138
-╠❉ zhysound139
-╠❉ zhysound140
-╠❉ zhysound141
-╠❉ zhysound142
-╠❉ zhysound143
-╠❉ zhysound144
-╠❉ zhysound145
-╠❉ zhysound146
-╠❉ zhysound147
-╠❉ zhysound148
-╠❉ zhysound149
-╠❉ zhysound150
-╠❉ zhysound151
-╠❉ zhysound152
-╠❉ zhysound153
-╠❉ zhysound154
-╠❉ zhysound155
-╠❉ zhysound156
-╠❉ zhysound157
-╠❉ zhysound158
-╠❉ zhysound159
-╠❉ zhysound160
-╠❉ zhysound161
+╠❉ sound1
+╠❉ sound2
+╠❉ sound3
+╠❉ sound4
+╠❉ sound5
+╠❉ sound6
+╠❉ sound7
+╠❉ sound8
+╠❉ sound9
+╠❉ sound10
+╠❉ sound11
+╠❉ sound12
+╠❉ sound13
+╠❉ sound14
+╠❉ sound15
+╠❉ sound16
+╠❉ sound17
+╠❉ sound18
+╠❉ sound19
+╠❉ sound20
+╠❉ sound21
+╠❉ sound22
+╠❉ sound23
+╠❉ sound24
+╠❉ sound25
+╠❉ sound26
+╠❉ sound27
+╠❉ sound28
+╠❉ sound29
+╠❉ sound30
+╠❉ sound31
+╠❉ sound32
+╠❉ sound33
+╠❉ sound34
+╠❉ sound35
+╠❉ sound36
+╠❉ sound37
+╠❉ sound38
+╠❉ sound39
+╠❉ sound40
+╠❉ sound41
+╠❉ sound42
+╠❉ sound43
+╠❉ sound44
+╠❉ sound45
+╠❉ sound46
+╠❉ sound47
+╠❉ sound48
+╠❉ sound49
+╠❉ sound50
+╠❉ sound51
+╠❉ sound52
+╠❉ sound53
+╠❉ sound54
+╠❉ sound55
+╠❉ sound56
+╠❉ sound57
+╠❉ sound58
+╠❉ sound59
+╠❉ sound60
+╠❉ sound61
+╠❉ sound62
+╠❉ sound63
+╠❉ sound64
+╠❉ sound65
+╠❉ sound66
+╠❉ sound67
+╠❉ sound68
+╠❉ sound69
+╠❉ sound70
+╠❉ sound71
+╠❉ sound72
+╠❉ sound73
+╠❉ sound74
+╠❉ sound75
+╠❉ sound76
+╠❉ sound77
+╠❉ sound78
+╠❉ sound79
+╠❉ sound80
+╠❉ sound81
+╠❉ sound82
+╠❉ sound83
+╠❉ sound84
+╠❉ sound85
+╠❉ sound86
+╠❉ sound87
+╠❉ sound88
+╠❉ sound89
+╠❉ sound90
+╠❉ sound91
+╠❉ sound92
+╠❉ sound93
+╠❉ sound94
+╠❉ sound95
+╠❉ sound96
+╠❉ sound97
+╠❉ sound98
+╠❉ sound99
+╠❉ sound100
+╠❉ sound101
+╠❉ sound102
+╠❉ sound103
+╠❉ sound104
+╠❉ sound105
+╠❉ sound106
+╠❉ sound107
+╠❉ sound108
+╠❉ sound109
+╠❉ sound110
+╠❉ sound111
+╠❉ sound112
+╠❉ sound113
+╠❉ sound114
+╠❉ sound115
+╠❉ sound116
+╠❉ sound117
+╠❉ sound118
+╠❉ sound119
+╠❉ sound120
+╠❉ sound121
+╠❉ sound122
+╠❉ sound123
+╠❉ sound124
+╠❉ sound125
+╠❉ sound126
+╠❉ sound127
+╠❉ sound128
+╠❉ sound129
+╠❉ sound130
+╠❉ sound131
+╠❉ sound132
+╠❉ sound133
+╠❉ sound134
+╠❉ sound135
+╠❉ sound136
+╠❉ sound137
+╠❉ sound138
+╠❉ sound139
+╠❉ sound140
+╠❉ sound141
+╠❉ sound142
+╠❉ sound143
+╠❉ sound144
+╠❉ sound145
+╠❉ sound146
+╠❉ sound147
+╠❉ sound148
+╠❉ sound149
+╠❉ sound150
+╠❉ sound151
+╠❉ sound152
+╠❉ sound153
+╠❉ sound154
+╠❉ sound155
+╠❉ sound156
+╠❉ sound157
+╠❉ sound158
+╠❉ sound159
+╠❉ sound160
+╠❉ sound161
 ╚════[ 𝚃𝙷𝙴 𝙺𝚄𝚁𝚄𝙼𝙸 𝙻𝚃𝙳ネ ]══════⊱`,
 contextInfo:{"externalAdReply": {"title": `SC 𝚃𝙷𝙴 𝙺𝚄𝚁𝚄𝙼𝙸 𝙻𝚃𝙳ネ`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
