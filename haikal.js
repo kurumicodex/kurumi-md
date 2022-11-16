@@ -2197,7 +2197,7 @@ break
 //=================================================//
 case 'sc': {
 if (isBan) throw sticBanLu(from)
-reply('Whatsapp : https://wa.me/62895617936984\n\n Sc Bot&info whatsapp vip cek youtube gweh : https://youtube.com/channel/UCdPcXlnmiVQf1Yvh3WQFRog')
+reply('Whatsapp : https://wa.me/6283167443391\n\n Website : https://www.budionosalim.my.id')
 }
 break
 //=================================================//
