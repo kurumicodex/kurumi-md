@@ -1,17 +1,6 @@
 # Kurumi-MD
-# AUthor THIS SCRIPT READ.ME = Aiinne
 
 # NOTE
-*pihak team developer dan team aine tidak beroperasi kembali karena script ini di perjual belikan*
-
-
-This script is free, if caught sold, this script will be deleted immediately.
-Don't forget to follow my github
-
-Script ini gratis, Jika ketahuan di jual, Script ini akan langsung di hapus.
-Jangan lupa untuk mengikuti github ku
-* My WhatsApp [`Click Here`](https://wa.me/6283167443391?text=Assalamualaikum)
-* My Instagram [`Click Here`](https://www.instagram.com/kurumi_cwe)
 
 ## Viewer 👁️
 <p align="center"><img src="https://profile-counter.glitch.me/{kurumicodexx}/count.svg" alt="neoxr :: Visitor's Count" /></p>
@@ -23,15 +12,6 @@ Jangan lupa untuk mengikuti github ku
 |--------|--------|
 | **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
 | **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
-
----------
-
-## HOW TO CONNECT TO MONGODB WHEN RUN IN HEROKU
-
-* Create account and database in mongodb atlas [`watch here`](https://youtu.be/rPqRyYJmx2g)
-* when you already have a database, you just need to take mongourl
-* Put mongourl in Procfile `web: node . --db 'mongourl'`
-* Example `web: node . -- db 'Your Mongo URI'`
 
 ---------
 
@@ -116,12 +96,6 @@ Choose your repo
 
 
 ---------
-
-## PANEL/RDP/VPS
-
-* Amiruldev [`Click Here`](https://www.amiruldev.my.id)
-
-
 ---------
 
 ## Run
@@ -191,10 +165,6 @@ conn.logger.level = 'trace'
 conn.logger.level = 'debug'
 ```
 
-## Settings
-
-Now set using switch [enable.js](https://github.com/kurumicodexx/kurumi-md/blob/master/plugins/enable.js), among others are
-
 ```js
 autoread: false, // If true all chats are automatically read
 nyimak: false, // No bot, just print received messages and add users to database
@@ -205,17 +175,6 @@ gconly: false, // If that chat not from group, bot will ignore
 ```
 
 ---------
-
-#### Thank's To
-
-Allah SWT,
-
-Orang Tua,
-
-Semua yang selalu mendukung
-
-#### Special Thank's To Script Readme This
-[![Aiine](https://github.com/Aiinne.png?size=100)](https://github.com/Aiinne)
 
 
 ## Contributor Script
